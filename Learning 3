@@ -1,0 +1,7 @@
+Backend 
+IO 
+
+K6 - performance testing tool - generate 100 routes. - no. of staled request 
+
+Go routines - libraries echo/jin - each request is created as a go routine -  lightweight thread
+100-1000 core routines in 2 cores.
