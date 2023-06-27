@@ -1,0 +1,52 @@
+Need of new Language:
+Python - easy to use but SLOW.
+Java - quick but tyoe system complexity.
+C/C++ - quick, compile time slow.
+
+Multi-threaded was not present before and concurrency patched in at best in them. So, challenging with hihgly parallel.
+
+ADVANTAGES
+1. Strong - we cannot change the type of the variable
+2. Statically typed - defiine at complie time. 
+3. Excellent Community
+4. Key features - 
+    Simplicity - 
+    Fast Compile times
+    Garbage collected - dont need to manage own memory
+    Build-in concurrency
+    Compile to standalone library - when compile then everything is going to be buundled into that single binary that's related to the go application.
+    
+    
+<
+package main // every go program must tell that it has a package.
+// Mainn is entryopint of any appplication
+
+import {
+    "fmt" // format strings
+}
+
+func main(){ // Application entrypoint
+    fmt.Println("Hello")
+}
+/>
+
+How to run - go run main.go
+
+Output - Hello
+    
+    
+FUN FACTS:
+1. COMPILED : (Whole file read first and then output is created) (Java is not compilted is between gives intermediate binaries and expect and must have JVM installed)
+               Can run without VM.
+               Executable are different for OS. options for exectables 
+2. What : System apps to web apps - Cloud Infrastruction. Shrinking hte machines. 
+          Already in production
+3. Object Oriented : we have structs not classes no overloading, mehtoed over-loading.
+                     Yes or No
+                     What you see on the screen is the code.
+
+
+MISSING:
+Not missing 
+try-catch not present will never need them
+lexer does alot of work - dont write semi-colon but doc says we should - lexer provides this.
